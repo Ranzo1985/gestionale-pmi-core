@@ -1,0 +1,15 @@
+# File di configurazione locale
+config/database_local.php
+*.log
+
+# File temporanei
+*.tmp
+*~
+
+# Cartelle di sistema
+.DS_Store
+Thumbs.db
+
+# File di backup
+*.bak
+*.backup
