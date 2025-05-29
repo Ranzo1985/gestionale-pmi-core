@@ -40,24 +40,34 @@ $result = $conn->query($sql);
                 
                 <!-- Pulsanti principali -->
                 <div class="row mb-4">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <a href="nuovo_prodotto.php" class="btn btn-success btn-lg w-100">
                             ➕ Nuovo Prodotto
                         </a>
                     </div>
-                    <div class="col-md-3">
-                        <a href="nuovo_lotto.php" class="btn btn-primary btn-lg w-100">
-                            📦 Nuovo Lotto
+                    <div class="col-md-2">
+                        <a href="anagrafica_lotti.php" class="btn btn-primary btn-lg w-100">
+                            📦 Lotti Logistici
                         </a>
                     </div>
-                    <div class="col-md-3">
-                        <a href="movimento.php" class="btn btn-warning btn-lg w-100">
+                    <div class="col-md-2">
+                        <a href="nuovo_lotto.php" class="btn btn-warning btn-lg w-100">
+                            📥 Vecchio Lotto
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="movimento.php" class="btn btn-info btn-lg w-100">
                             📝 Movimento
                         </a>
                     </div>
-                    <div class="col-md-3">
-                        <a href="storico_movimenti.php" class="btn btn-info btn-lg w-100">
+                    <div class="col-md-2">
+                        <a href="storico_movimenti.php" class="btn btn-secondary btn-lg w-100">
                             📊 Storico
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="gestione_unita_misura.php" class="btn btn-outline-info btn-lg w-100">
+                            📏 UM
                         </a>
                     </div>
                 </div>
